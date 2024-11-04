@@ -1,0 +1,18 @@
+print("sdasdsd")
+
+
+--[[
+
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+
+local placeId = game.PlaceId -- This is the ID of the current game place
+local playerArray = Players:GetPlayers() -- Get all players in the game
+
+if #playerArray > 0 then
+    TeleportService:TeleportAsync(placeId, playerArray) -- Teleport all players to a new instance if needed
+end
+
+
+
+  ]]
