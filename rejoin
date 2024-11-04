@@ -1,7 +1,7 @@
 print("sdasdsd")
 
 
-
+--[[
 
 local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
@@ -15,3 +15,4 @@ end
 
 
 
+  ]]
