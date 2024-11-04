@@ -11,8 +11,7 @@ local playerArray = Players:GetPlayers() -- Get all players in the game
 
 if #playerArray > 0 then
     TeleportService:TeleportAsync(placeId, playerArray) -- Teleport all players to a new instance if needed
-end
+end    
 
 
 
- 
